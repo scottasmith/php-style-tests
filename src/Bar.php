@@ -15,4 +15,3 @@ class Bar
         return $this;
     }
 }
-
