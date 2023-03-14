@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Scottsmith\PhpStyleTests;
 
-readonly final class Foo
+class Foo
 {
     private string $name;
 

@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Scottsmith\PhpStyleTests;
 
-readonly final class Bar
+class Bar
 {
     private int $age;
 
