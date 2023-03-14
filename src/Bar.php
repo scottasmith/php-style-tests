@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace Scottsmith\PhpStyleTests;
 
-class Foo
+class Bar
 {
-    private string $name;
+    private int $age;
 
-    public function setName(
-        string $name
+    public function setAge2(
+        int $age
     ): self {
-        $this->name = $name;
+        $this->age = $age;
         return $this;
     }
 }
