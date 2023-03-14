@@ -10,7 +10,8 @@ class Baz
 
     public function getCallableo(
         int $age
-    ): callable {
+    ): callable
+    {
         return fn () => $age;
     }
 
@@ -27,5 +28,4 @@ class Baz
             };
          };
      }
-}}
-
+}
