@@ -8,7 +8,7 @@ class Bar
 {
     private int $age;
 
-    public function setAge(
+    public function setAge2(
         int $age
     ): self {
         $this->age = $age;
