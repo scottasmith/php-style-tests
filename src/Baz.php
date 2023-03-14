@@ -16,16 +16,17 @@ class Baz
     }
 
      private function pick(
-        ?bool $cheapest = null,
-        ?bool $mostExpensive = null
-     ): callable {
+         ?bool $cheapest = null,
+         ?bool $mostExpensive = null
+     ): callable
+     {
          return function () use ($cheapest, $mostExpensive) {
              return match (true) {
-                $cheapest === null => 1,
-                $mostExpensive === null => 2,
-                default
-                    => 3
-            };
+                 $cheapest === null => 1,
+                 $mostExpensive === null => 2,
+                 default
+                 => 3
+             };
          };
      }
 }
