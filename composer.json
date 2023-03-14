@@ -1,0 +1,15 @@
+{
+    "name": "scottsmith/php-style-tests",
+    "autoload": {
+        "psr-4": {
+            "Scottsmith\\PhpStyleTests\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Scott Smith",
+            "email": "scottasmith@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
